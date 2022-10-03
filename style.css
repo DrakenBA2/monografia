@@ -1,0 +1,76 @@
+.uno, .dos, .tres, .cuatro, .cinco{
+    border: 1px solid transparent;
+    width: 100px;
+    height:100px;
+    float: left;
+    overflow: hidden;
+   margin-bottom: 50px;
+}
+    body{background-image: url(/img/6.jpg);
+       }
+
+    .uno{
+
+    background: url(/img/1.png) no-repeat;
+     background-position: center center;
+     
+}
+    .dos{
+    background: url(/img/2.webp)no-repeat;
+    background-position:center center;
+  
+}
+
+    .tres{
+    background: url(/img/3.jpg)no-repeat;
+    background-position:center center;
+    
+}
+
+    .cuatro{
+    background: url(/img/4.jpg)no-repeat;
+    background-position:center center;
+    
+}
+    .cinco{background: url(/img/5.jpg)no-repeat;
+    background-position:center center;
+    
+    }
+
+
+
+
+
+.uno:hover ~ .principal1{
+ height: 1500px;
+
+}
+.dos:hover ~ .principal2{
+  
+    height: 900px;
+   
+}
+.tres:hover ~ .principal3{
+    height: 500px;
+
+}
+.cuatro:hover ~ .principal4{
+    height: 720px;
+    
+}
+
+.cinco:hover ~ .principal5{
+    height: 900px;  
+}
+
+
+
+.principal1,.principal2,.principal3,.principal4 , .principal5{ 
+    width: 500px ;
+     height:0px; 
+     overflow: hidden; 
+    transition: 2s;
+    background-size: 100%;
+    
+
+}
