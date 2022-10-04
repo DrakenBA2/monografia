@@ -6,33 +6,33 @@
     overflow: hidden;
    margin-bottom: 50px;
 }
-    body{background-image: url(img/6.jpg);
+    body{background-image: url(/img/6.jpg);
        }
 
     .uno{
 
-    background: url(img/1.png) no-repeat;
+    background: url(/img/1.png) no-repeat;
      background-position: center center;
      
 }
     .dos{
-    background: url(img/2.webp)no-repeat;
+    background: url(/img/2.webp)no-repeat;
     background-position:center center;
   
 }
 
     .tres{
-    background: url(img/3.jpg)no-repeat;
+        background: url(/img/3.jpg)no-repeat;
     background-position:center center;
     
 }
 
     .cuatro{
-    background: url(img/4.jpg)no-repeat;
+    background: url(/img/4.jpg)no-repeat;
     background-position:center center;
     
 }
-    .cinco{background: url(img/5.jpg)no-repeat;
+    .cinco{background: url(/img/5.jpg)no-repeat;
     background-position:center center;
     
     }
